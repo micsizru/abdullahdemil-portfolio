@@ -520,6 +520,11 @@ footer {
   * {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    transform: none !important;
+    transition: none !important;
   }
 
   body {
@@ -647,6 +652,7 @@ footer {
 
   #summary {
     break-before: page;
+    padding-top: 1.2cm;
   }
 
   .skill-category {
