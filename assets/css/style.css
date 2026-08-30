@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 /* ============================================
    RESET & VARIABLES
@@ -23,9 +23,10 @@
   --bg: #f8fafc;
   --card: #ffffff;
   --border: #e5e7eb;
-  --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
-  --shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
-  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-md:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
   --radius: 12px;
   --radius-sm: 8px;
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -36,7 +37,12 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-size: 14px;
   line-height: 1.65;
   color: var(--text);
@@ -278,7 +284,7 @@ body {
 }
 
 .edu-item::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -5px;
   top: 4px;
@@ -381,7 +387,7 @@ body {
 }
 
 .exp-bullets li::before {
-  content: '›';
+  content: "›";
   position: absolute;
   left: 0;
   color: var(--accent);
@@ -534,7 +540,10 @@ footer {
     padding: 1.2cm;
   }
 
-  .top-bar, .flag-img, .lang-switch, .btn-download {
+  .top-bar,
+  .flag-img,
+  .lang-switch,
+  .btn-download {
     display: none !important;
   }
 
@@ -545,7 +554,8 @@ footer {
     display: block;
   }
 
-  .sidebar, .main-content {
+  .sidebar,
+  .main-content {
     width: 100%;
     display: block;
   }
@@ -558,7 +568,7 @@ footer {
     margin-bottom: 0;
     box-shadow: none !important;
   }
-  
+
   .card:last-child {
     border-bottom: none;
   }
@@ -588,7 +598,9 @@ footer {
     padding-bottom: 2px;
   }
 
-  .contact-list, .links-list, .lang-list {
+  .contact-list,
+  .links-list,
+  .lang-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -596,7 +608,9 @@ footer {
     margin-bottom: 4px;
   }
 
-  .contact-list li, .links-list li, .lang-item {
+  .contact-list li,
+  .links-list li,
+  .lang-item {
     font-size: 8.5pt;
   }
 
@@ -611,14 +625,18 @@ footer {
     font-weight: normal;
   }
 
-  .lang-level::before { content: "("; }
-  .lang-level::after { content: ")"; }
+  .lang-level::before {
+    content: "(";
+  }
+  .lang-level::after {
+    content: ")";
+  }
 
   .edu-item {
     border-left: none;
     padding-left: 0;
   }
-  
+
   .edu-item::before {
     display: none;
   }
@@ -645,12 +663,12 @@ footer {
     margin-top: 2px;
     gap: 2px;
   }
-  
+
   .exp-bullets li {
     font-size: 8.5pt;
   }
 
-  #summary {
+  .force-page-break {
     break-before: page;
     padding-top: 1.2cm;
   }
@@ -667,10 +685,6 @@ footer {
 
   .skill-label::after {
     content: ": ";
-  }
-
-  .skill-tags {
-    display: inline;
   }
 
   .skill-tag {
